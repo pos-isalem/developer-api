@@ -3,7 +3,7 @@ const POSRocketApi = require('../dist/src').POSRocketApi;
 
 
 
-POSRocketApi.init('Fy6GkmLw4dMDX8rBaARaZGg4yQA8l5');
+POSRocketApi.init('I4cXgIAlwtdjOzZ9T9hAJxm4cyYQsY');
 
 POSRocketApi.business.getInfo().then((res) => {
     console.log(`\n \n\n\n\nBusiness is \n  ${JSON.stringify(res)} \n \n`);

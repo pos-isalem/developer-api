@@ -5,7 +5,7 @@ import { PosRocketLocationList, PosRocketLocation, PosRocketDiscount, POSRocketT
 
 
 
-POSRocketApi.init('Fy6GkmLw4dMDX8rBaARaZGg4yQA8l5');
+POSRocketApi.init('I4cXgIAlwtdjOzZ9T9hAJxm4cyYQsY');
 
 
 
