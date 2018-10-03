@@ -17,9 +17,10 @@ In case you want to modify the code and still get new builds automatically, open
 ##`scaffolding is cool word hhhh`
 
 
-Test Folder is a 3rd party app simulator, it should interact with the developer app api and print the result.
-testtype.ts : is a sample for interacting with  the developer api on typescript.
-testtype.ts : is a sample for interacting with  the developer api on js (notice the intellisense while calling developer api methods).
+# Test Folder is a 3rd party app simulator, it should interact with the developer app api and print the result.
+
+### file --> testtype.ts : is a sample for interacting with  the developer api on typescript.
+### file --> test.js : is a sample for interacting with  the developer api on js (notice the intellisense while calling developer api methods).
 
 
 
