@@ -15,6 +15,7 @@ export class PosHttpRequest {
     private static headers: Object;
     private constructor(token?: string) {
         if (!token) {
+            console.log('you dont have nanyy toke cc');
             throw new Error(PosErrors.httpErrors.INVALID_TOKEN);
         }
         PosHttpRequest.headers = { Authorization: `Bearer ${token}` };
