@@ -6,6 +6,10 @@ import { PosRocketLocationList, PosRocketLocation, PosRocketDiscount, POSRocketT
 
 
 POSRocketApi.init('Fy6GkmLw4dMDX8rBaARaZGg4yQA8l5');
+
+
+
+
 POSRocketApi.business.getInfo().then(res => {
     console.log(`\n \n\n\n\nBusiness is \n  ${JSON.stringify(res)} \n \n`);
 });

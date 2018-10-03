@@ -4,8 +4,6 @@ import { Constants } from "../../util/constant";
 
 export module BusinessModule {
     /**
-     *@author {Ihab Salem}
-     *
      * @export
      * @class Business
      * @description getting Business data
@@ -14,11 +12,9 @@ export module BusinessModule {
 
 
         /**
-         *@author {Ihab Salem}
-         *
          * @returns {Promise<POSRocketBusiness>}
          * @memberof Business
-         * @description hit request to preserve user data
+         * @description get business information
          */
         getInfo(): Promise<POSRocketBusiness> {
             const httpRequestInstance = PosHttpRequest.getInstance();
