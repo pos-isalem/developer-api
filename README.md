@@ -22,5 +22,5 @@ testtype.ts : is a sample for interacting with  the developer api on js (notice 
 
 
 
-# This should pushed and shiped on NPM Reposotories as a public packages.
+# This should will be pushed and shipped to NPM Reposotories as a public packages.
 
