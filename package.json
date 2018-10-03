@@ -1,0 +1,27 @@
+{
+  "name": "posrocket-developer-api",
+  "version": "1.0.0",
+  "description": "Communicate with posrocket system through this package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "serve": "node test/test.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node ./node_modules/typescript/lib/tsc --pretty",
+    "watch": "node ./node_modules/typescript/lib/tsc -w"
+  },
+  "keywords": [
+    "posrocket"
+  ],
+  "author": "Ihab Salem",
+  "license": "ISC",
+  "devDependencies": {
+    "tsc-watch": "^1.0.29",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "rxjs": "^6.3.3"
+  }
+}
