@@ -37,7 +37,7 @@ export module LocationsModule {
          */
         getLocationInfo(id: string): Promise<PosRocketLocation> {
             const httpRequestInstance = PosHttpRequest.getInstance();
-            return httpRequestInstance.get(Constants.LOCATIONS.concat('/').concat(id)).then(res => res.data.data).then(locations => {
+            return httpRequestInstance.get(Constants.LOCATIONS.concat('/').concat(id)).then(res => res.data).then(locations => {
                 return locations;
             });
         }

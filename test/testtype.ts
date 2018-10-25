@@ -1,17 +1,19 @@
 
 import { POSRocketApi } from '../src/app';
-import { PosRocketLocationList, PosRocketLocation, PosRocketDiscount, POSRocketTableResponse } from 'src/models';
+import { PosRocketLocationList, PosRocketLocation, POSRocketTableResponse, PosRocketDiscount } from 'src/models';
 
 
 
 
-POSRocketApi.init('I4cXgIAlwtdjOzZ9T9hAJxm4cyYQsY');
+POSRocketApi.init('5gwg9gywuCYGEcuQPxBY7BkUGllM3s');
 
 
 
 
 POSRocketApi.business.getInfo().then(res => {
-    console.log(`\n \n\n\n\nBusiness is \n  ${JSON.stringify(res)} \n \n`);
+    console.log(`\n \n\n\n\nBusiness is \n  ${JSON.stringify(res)} \n \n`, res.name);
+}).catch(err => {
+    console.log('error of this ', err);
 });
 
 

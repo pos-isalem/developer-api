@@ -18,7 +18,7 @@ export module BusinessModule {
          */
         getInfo(): Promise<POSRocketBusiness> {
             const httpRequestInstance = PosHttpRequest.getInstance();
-            return httpRequestInstance.get(Constants.BUSINESS.concat('/').concat(Constants.INFO)).then(res => res.data.data).then(business => {
+            return httpRequestInstance.get(Constants.BUSINESS).then(res => res.data).then(business => {
                 return business;
             });
         }
