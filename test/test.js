@@ -1,6 +1,5 @@
 // import {  } from '../dist/app';
-const POSRocketApi = require('../dist/src').POSRocketApi;
-
+const POSRocketApi = require('../dist/js/main.build').POSRocketApi;
 
 
 POSRocketApi.init('I4cXgIAlwtdjOzZ9T9hAJxm4cyYQsY');
