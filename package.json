@@ -5,11 +5,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
     "serve": "node test/test.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "node ./node_modules/typescript/lib/tsc --pretty",
-    "watch": "node ./node_modules/typescript/lib/tsc -w"
+    "watch": "node ./node_modules/typescript/lib/tsc -w",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "posrocket"
@@ -17,8 +17,11 @@
   "author": "Ihab Salem",
   "license": "ISC",
   "devDependencies": {
+    "ts-loader": "^5.3.0",
     "tsc-watch": "^1.0.29",
-    "typescript": "^3.1.1"
+    "typescript": "^3.1.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "axios": "^0.16.2",
